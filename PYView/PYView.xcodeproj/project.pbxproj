@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187573A71D616F5800B69DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187573A61D616F5800B69DD0 /* main.m */; };
+		187573AA1D616F5800B69DD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187573A91D616F5800B69DD0 /* AppDelegate.m */; };
+		187573AD1D616F5800B69DD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187573AC1D616F5800B69DD0 /* ViewController.m */; };
+		187573B01D616F5800B69DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187573AE1D616F5800B69DD0 /* Main.storyboard */; };
+		187573B21D616F5800B69DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187573B11D616F5800B69DD0 /* Assets.xcassets */; };
+		187573B51D616F5800B69DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187573B31D616F5800B69DD0 /* LaunchScreen.storyboard */; };
+		187573C01D616F5800B69DD0 /* PYViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187573BF1D616F5800B69DD0 /* PYViewTests.m */; };
+		187573CB1D616F5800B69DD0 /* PYViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187573CA1D616F5800B69DD0 /* PYViewUITests.m */; };
+		187573D91D61727500B69DD0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 187573D81D61727500B69DD0 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187573BC1D616F5800B69DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1875739A1D616F5800B69DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187573A11D616F5800B69DD0;
+			remoteInfo = PYView;
+		};
+		187573C71D616F5800B69DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1875739A1D616F5800B69DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187573A11D616F5800B69DD0;
+			remoteInfo = PYView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187573A21D616F5800B69DD0 /* PYView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187573A61D616F5800B69DD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187573A81D616F5800B69DD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187573A91D616F5800B69DD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187573AB1D616F5800B69DD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187573AC1D616F5800B69DD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187573AF1D616F5800B69DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187573B11D616F5800B69DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187573B41D616F5800B69DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187573B61D616F5800B69DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187573BB1D616F5800B69DD0 /* PYViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187573BF1D616F5800B69DD0 /* PYViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewTests.m; sourceTree = "<group>"; };
+		187573C11D616F5800B69DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187573C61D616F5800B69DD0 /* PYViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187573CA1D616F5800B69DD0 /* PYViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewUITests.m; sourceTree = "<group>"; };
+		187573CC1D616F5800B69DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187573D81D61727500B69DD0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1875739F1D616F5800B69DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187573B81D616F5800B69DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187573C31D616F5800B69DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187573991D616F5800B69DD0 = {
+			isa = PBXGroup;
+			children = (
+				187573A41D616F5800B69DD0 /* PYView */,
+				187573BE1D616F5800B69DD0 /* PYViewTests */,
+				187573C91D616F5800B69DD0 /* PYViewUITests */,
+				187573A31D616F5800B69DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187573A31D616F5800B69DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187573A21D616F5800B69DD0 /* PYView.app */,
+				187573BB1D616F5800B69DD0 /* PYViewTests.xctest */,
+				187573C61D616F5800B69DD0 /* PYViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187573A41D616F5800B69DD0 /* PYView */ = {
+			isa = PBXGroup;
+			children = (
+				187573A81D616F5800B69DD0 /* AppDelegate.h */,
+				187573A91D616F5800B69DD0 /* AppDelegate.m */,
+				187573AB1D616F5800B69DD0 /* ViewController.h */,
+				187573AC1D616F5800B69DD0 /* ViewController.m */,
+				187573D81D61727500B69DD0 /* 1.jpg */,
+				187573AE1D616F5800B69DD0 /* Main.storyboard */,
+				187573B11D616F5800B69DD0 /* Assets.xcassets */,
+				187573B31D616F5800B69DD0 /* LaunchScreen.storyboard */,
+				187573B61D616F5800B69DD0 /* Info.plist */,
+				187573A51D616F5800B69DD0 /* Supporting Files */,
+			);
+			path = PYView;
+			sourceTree = "<group>";
+		};
+		187573A51D616F5800B69DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187573A61D616F5800B69DD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187573BE1D616F5800B69DD0 /* PYViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				187573BF1D616F5800B69DD0 /* PYViewTests.m */,
+				187573C11D616F5800B69DD0 /* Info.plist */,
+			);
+			path = PYViewTests;
+			sourceTree = "<group>";
+		};
+		187573C91D616F5800B69DD0 /* PYViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187573CA1D616F5800B69DD0 /* PYViewUITests.m */,
+				187573CC1D616F5800B69DD0 /* Info.plist */,
+			);
+			path = PYViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187573A11D616F5800B69DD0 /* PYView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187573CF1D616F5800B69DD0 /* Build configuration list for PBXNativeTarget "PYView" */;
+			buildPhases = (
+				1875739E1D616F5800B69DD0 /* Sources */,
+				1875739F1D616F5800B69DD0 /* Frameworks */,
+				187573A01D616F5800B69DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYView;
+			productName = PYView;
+			productReference = 187573A21D616F5800B69DD0 /* PYView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187573BA1D616F5800B69DD0 /* PYViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187573D21D616F5800B69DD0 /* Build configuration list for PBXNativeTarget "PYViewTests" */;
+			buildPhases = (
+				187573B71D616F5800B69DD0 /* Sources */,
+				187573B81D616F5800B69DD0 /* Frameworks */,
+				187573B91D616F5800B69DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187573BD1D616F5800B69DD0 /* PBXTargetDependency */,
+			);
+			name = PYViewTests;
+			productName = PYViewTests;
+			productReference = 187573BB1D616F5800B69DD0 /* PYViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187573C51D616F5800B69DD0 /* PYViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187573D51D616F5800B69DD0 /* Build configuration list for PBXNativeTarget "PYViewUITests" */;
+			buildPhases = (
+				187573C21D616F5800B69DD0 /* Sources */,
+				187573C31D616F5800B69DD0 /* Frameworks */,
+				187573C41D616F5800B69DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187573C81D616F5800B69DD0 /* PBXTargetDependency */,
+			);
+			name = PYViewUITests;
+			productName = PYViewUITests;
+			productReference = 187573C61D616F5800B69DD0 /* PYViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1875739A1D616F5800B69DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					187573A11D616F5800B69DD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					187573BA1D616F5800B69DD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 187573A11D616F5800B69DD0;
+					};
+					187573C51D616F5800B69DD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 187573A11D616F5800B69DD0;
+					};
+				};
+			};
+			buildConfigurationList = 1875739D1D616F5800B69DD0 /* Build configuration list for PBXProject "PYView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187573991D616F5800B69DD0;
+			productRefGroup = 187573A31D616F5800B69DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187573A11D616F5800B69DD0 /* PYView */,
+				187573BA1D616F5800B69DD0 /* PYViewTests */,
+				187573C51D616F5800B69DD0 /* PYViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187573A01D616F5800B69DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187573B51D616F5800B69DD0 /* LaunchScreen.storyboard in Resources */,
+				187573D91D61727500B69DD0 /* 1.jpg in Resources */,
+				187573B21D616F5800B69DD0 /* Assets.xcassets in Resources */,
+				187573B01D616F5800B69DD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187573B91D616F5800B69DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187573C41D616F5800B69DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1875739E1D616F5800B69DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187573AD1D616F5800B69DD0 /* ViewController.m in Sources */,
+				187573AA1D616F5800B69DD0 /* AppDelegate.m in Sources */,
+				187573A71D616F5800B69DD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187573B71D616F5800B69DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187573C01D616F5800B69DD0 /* PYViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187573C21D616F5800B69DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187573CB1D616F5800B69DD0 /* PYViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187573BD1D616F5800B69DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187573A11D616F5800B69DD0 /* PYView */;
+			targetProxy = 187573BC1D616F5800B69DD0 /* PBXContainerItemProxy */;
+		};
+		187573C81D616F5800B69DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187573A11D616F5800B69DD0 /* PYView */;
+			targetProxy = 187573C71D616F5800B69DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187573AE1D616F5800B69DD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187573AF1D616F5800B69DD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187573B31D616F5800B69DD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187573B41D616F5800B69DD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187573CD1D616F5800B69DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187573CE1D616F5800B69DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187573D01D616F5800B69DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187573D11D616F5800B69DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187573D31D616F5800B69DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYView.app/PYView";
+			};
+			name = Debug;
+		};
+		187573D41D616F5800B69DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYView.app/PYView";
+			};
+			name = Release;
+		};
+		187573D61D616F5800B69DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYView;
+			};
+			name = Debug;
+		};
+		187573D71D616F5800B69DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1875739D1D616F5800B69DD0 /* Build configuration list for PBXProject "PYView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187573CD1D616F5800B69DD0 /* Debug */,
+				187573CE1D616F5800B69DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187573CF1D616F5800B69DD0 /* Build configuration list for PBXNativeTarget "PYView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187573D01D616F5800B69DD0 /* Debug */,
+				187573D11D616F5800B69DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187573D21D616F5800B69DD0 /* Build configuration list for PBXNativeTarget "PYViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187573D31D616F5800B69DD0 /* Debug */,
+				187573D41D616F5800B69DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187573D51D616F5800B69DD0 /* Build configuration list for PBXNativeTarget "PYViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187573D61D616F5800B69DD0 /* Debug */,
+				187573D71D616F5800B69DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1875739A1D616F5800B69DD0 /* Project object */;
+}
